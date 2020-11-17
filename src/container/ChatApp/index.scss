@@ -1,0 +1,29 @@
+.ChatApp{
+    display: flex;
+    height: 100vh;
+
+    .left-container {
+        flex: 1;
+        border-right: 2px solid black;
+        padding: 2rem;
+    }
+    .right-container {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+
+        .list-mess {
+            flex: 4;
+            border-bottom: 2px solid black;
+            padding: 10px 10px 0 10px;
+            overflow: auto;
+        }
+
+        .section-form {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

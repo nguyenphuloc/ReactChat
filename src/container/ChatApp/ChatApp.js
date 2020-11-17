@@ -1,11 +1,11 @@
 import React from "react";
-import { dataUsers } from "../assets/data/mock_data";
-import HandleForm from "../component/HandleForm/HandleForm";
-import Mess from "../component/Mess/Mess";
-import User from "../component/User/User";
+import { dataUsers } from "../../assets/data/mock_data";
+import HandleForm from "../../component/HandleForm/HandleForm";
+import Mess from "../../component/Mess/Mess";
+import User from "../../component/User/User";
 
 //style
-import '../styles/index.scss';
+import './index.scss';
 
 export default class ChatApp extends React.Component {
   constructor(props) {
